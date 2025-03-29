@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "name": "Responsive Layout",
+      "percent": 10,
+      "image": "responsive.png",
+      "id": 1
+    },
+    {
+      "name": "JavaScript",
+      "percent": 10,
+      "image": "js.png",
+      "id": 2
+    },
+    {
+      "name": "SCSS",
+      "percent": 10,
+      "image": "scss.png",
+      "id": 3
+    },
+    {
+      "name": "REACT",
+      "percent": 10,
+      "image": "react.png",
+      "id": 4
+    },
+    {
+      "name": "GIT",
+      "percent": 10,
+      "image": "git.png",
+      "id": 5
+    },
+    {
+      "name": "GITHUB",
+      "percent": 10,
+      "image": "github.png",
+      "id": 6
+    },
+    {
+      "name": "UI DESIGNER",
+      "percent": 10,
+      "image": "sigma.png",
+      "id": 7
+    },
+    {
+      "name": "ADOBE PHOTOSHOP",
+      "percent": 10,
+      "image": "ps.png",
+      "id": 8
+    }
+  ]
+}

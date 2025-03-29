@@ -1,0 +1,18 @@
+:root {
+  --clr-primary: #3f65e3;
+  --clr-secondary: #ad7e38;
+  --clr-neutral200: #a6a6a6;
+  --clr-neutral300: #171717;
+  --clr-input: rgb(95, 95, 95);
+
+  --heading: 30px;
+  --sub-heading: 20px;
+
+  --big-container: 1000px;
+}
+
+.loading-wrapper {
+  display: grid;
+  place-items: center;
+  min-height: 40vh;
+}

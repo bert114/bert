@@ -1,0 +1,181 @@
+{
+  "projects": [
+    {
+      "img": "fm/p1.png",
+      "title": "Age Calculator",
+      "description": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "id": "p1",
+      "liveUrl": "https://bert114.github.io/age-calc/",
+      "repoUrl": "https://github.com/bert114/age-calc"
+    },
+    {
+      "img": "fm/p2.png",
+      "title": "Tip Calculator",
+      "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+      "id": "p2",
+      "liveUrl": "https://waltuh12345.github.io/Tipcalculatorapp/",
+      "repoUrl": "https://github.com/waltuh12345/Tipcalculatorapp"
+    },
+    {
+      "img": "fm/p3.png",
+      "title": "sunnyside-agency-landing-page-main",
+      "description": "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills.",
+      "id": "p3",
+      "liveUrl": "https://waltuh12345.github.io/sunnyside-agency-landing-page-main/",
+      "repoUrl": "https://github.com/waltuh12345/sunnyside-agency-landing-page-main"
+    },
+    {
+      "img": "fm/p4.png",
+      "title": "Interactive rating component",
+      "description": "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills.",
+      "id": "p4",
+      "liveUrl": "https://waltuh12345.github.io/Interactive_rating_component/",
+      "repoUrl": "https://github.com/waltuh12345/Interactive_rating_component"
+    },
+    {
+      "img": "fm/p5.png",
+      "title": "Social media dashboard with theme switcher",
+      "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.",
+      "id": "p5",
+      "liveUrl": "https://waltuh12345.github.io/dash/",
+      "repoUrl": "https://github.com/waltuh12345/dash"
+    },
+    {
+      "img": "fm/p6.png",
+      "title": "Intro section with dropdown navigation",
+      "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "id": "p6",
+      "liveUrl": "https://waltuh12345.github.io/dropdown/",
+      "repoUrl": "https://github.com/waltuh12345/dropdown"
+    },
+    {
+      "img": "fm/p7.png",
+      "title": "Clipboard landing page",
+      "description": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "id": "p7",
+      "liveUrl": "https://waltuh12345.github.io/clipboard/",
+      "repoUrl": "http://github.com/waltuh12345/clipboard"
+    },
+    {
+      "img": "fm/p8.png",
+      "title": "Fylo dark theme landing page",
+      "description": "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills.",
+      "id": "p8",
+      "liveUrl": "https://waltuh12345.github.io/fylo/",
+      "repoUrl": "https://github.com/waltuh12345/fylo"
+    },
+    {
+      "img": "fm/p9.png",
+      "title": "Newsletter sign-up form with success message",
+      "description": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+      "id": "p9",
+      "liveUrl": "https://waltuh12345.github.io/newsletter/",
+      "repoUrl": "https://github.com/waltuh12345/newsletter"
+    },
+    {
+      "img": "fm/p10.png",
+      "title": "Huddle landing page with alternating feature blocks",
+      "description": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go.",
+      "id": "p10",
+      "liveUrl": "https://waltuh12345.github.io/huddle/",
+      "repoUrl": "https://github.com/waltuh12345/huddle"
+    },
+    {
+      "img": "fm/p11.png",
+      "title": "FAQ accordion card",
+      "description": "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!",
+      "id": "p11",
+      "liveUrl": "https://waltuh12345.github.io/FaqAccordionCard/",
+      "repoUrl": "https://github.com/waltuh12345/FaqAccordionCard"
+    },
+
+    {
+      "img": "fm/p12.png",
+      "title": "Project tracking intro component",
+      "description": "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts.",
+      "id": "p12",
+      "liveUrl": "https://waltuh12345.github.io/trackingIntroComponet/",
+      "repoUrl": "https://github.com/waltuh12345/trackingIntroComponet"
+    },
+    {
+      "img": "fm/p13.png",
+      "title": "Loopstudios landing page",
+      "description": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+      "id": "p13",
+      "liveUrl": "https://waltuh12345.github.io/loopstudiowithloading/",
+      "repoUrl": "https://github.com/waltuh12345/loopstudiowithloading"
+    },
+    {
+      "img": "fm/p14.png",
+      "title": "Interactive pricing component",
+      "description": "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+      "id": "p14",
+      "liveUrl": "https://waltuh12345.github.io/interactive-pricing-component-main/src/",
+      "repoUrl": "https://github.com/waltuh12345/interactive-pricing-component-main"
+    },
+    {
+      "img": "fm/p15.png",
+      "title": "Notifications page",
+      "description": "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications.",
+      "id": "p15",
+      "liveUrl": "https://waltuh12345.github.io/Notificationspage/",
+      "repoUrl": "https://github.com/waltuh12345/Notificationspage"
+    },
+    {
+      "img": "fm/p24.png",
+      "title": "****",
+      "description": "****** ******* **** **** **** **** ********* ****",
+      "id": "p24",
+      "liveUrl": "https://bert114.github.io/rosel/",
+      "repoUrl": "https://github.com/bert114/rosel"
+    },
+    {
+      "img": "fm/p16.png",
+      "title": "Interactive card details form",
+      "description": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "id": "p16",
+      "liveUrl": "https://bert114.github.io/form-validation/",
+      "repoUrl": "https://github.com/bert114/form-validation"
+    },
+    {
+      "img": "fm/p17.png",
+      "title": "Intro component with sign-up form",
+      "description": "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+      "id": "p17",
+      "liveUrl": "https://waltuh12345.github.io/signupFormMaster/",
+      "repoUrl": "https://github.com/waltuh12345/signupFormMaster"
+    },
+    {
+      "img": "fm/p18.png",
+      "title": "Blogr landing page",
+      "description": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+      "id": "p18",
+      "liveUrl": "https://waltuh12345.github.io/blogrlanding-page-main/",
+      "repoUrl": "https://github.com/waltuh12345/blogrlanding-page-main"
+    },
+    {
+      "img": "fm/p19.png",
+      "title": "Time tracking dashboard",
+      "description": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "id": "p19",
+      "liveUrl": "https://waltuh12345.github.io/random-chall/",
+      "repoUrl": "https://github.com/waltuh12345/random-chall"
+    },
+    {
+      "img": "fm/p20.png",
+      "title": "Four card feature section",
+      "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+      "id": "p20",
+      "liveUrl": "https://github.com/bert114/four-card-feature-section-master",
+      "repoUrl": "https://bert114.github.io/four-card-feature-section-master/"
+    },
+    {
+      "img": "fm/p21.png",
+      "title": "Article preview component",
+      "description": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+      "id": "p21",
+      "liveUrl": "https://bert114.github.io/Article-preview-component/",
+      "repoUrl": "https://github.com/bert114/Article-preview-component"
+    }
+  ]
+}

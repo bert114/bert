@@ -1,0 +1,257 @@
+@use "../util" as *;
+
+.border {
+  border: 2px solid red;
+
+  > * {
+    border: 2px solid green;
+  }
+}
+
+body {
+  font-family: mont;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+// =====CURRENT====== //
+.hero {
+  --percent: 90%;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--percent);
+    max-width: 1200px;
+    margin-inline: auto;
+    margin: 2rem auto 2rem auto;
+
+    .logo {
+      width: 120px;
+    }
+
+    button {
+      all: initial;
+      z-index: 100;
+    }
+  }
+
+  .nav-wrapper {
+    position: relative;
+
+    .menu-wrapper {
+      display: none;
+    }
+
+    .menu-desktop {
+      display: block;
+      background-color: rgb(220, 220, 220);
+      position: absolute;
+      width: 100%;
+      z-index: 100;
+
+      ul {
+        text-align: center;
+        width: 80%;
+        margin-inline: auto;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      a {
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 400px;
+
+    width: var(--percent);
+    margin-inline: auto;
+
+    .content {
+      order: 2;
+      line-height: 1;
+      text-align: center;
+
+      h4 {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+      }
+
+      span {
+        font-weight: 700;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 2rem;
+        width: 80%;
+        margin-inline: auto;
+        line-height: 1.4;
+      }
+
+      button {
+        height: 2.3rem;
+        width: min(100%, 360px);
+        border: 1px solid var(--clr-secondary);
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .hero {
+    .nav {
+      .menu-wrapper {
+        display: initial;
+      }
+
+      ul {
+        display: flex;
+        gap: 0 2rem;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      button {
+        display: none;
+      }
+    }
+
+    .nav-wrapper {
+      position: initial;
+      display: flex;
+      align-items: center;
+      //padding: 0 2rem;
+      width: min(90%, 1100px);
+      margin-inline: auto;
+
+      .menu-wrapper {
+        display: block;
+      }
+
+      ul {
+        display: flex;
+        gap: 1.5rem;
+      }
+    }
+
+    --percent: 93%;
+    /* Step 0: 26px → 50px */
+    --step-0: clamp(1.625rem, -0.875rem + 6.25vw, 3.125rem);
+    .showcase-container {
+      max-width: initial;
+      flex-direction: row-reverse;
+      gap: 0;
+      align-items: center;
+      justify-content: center;
+      max-width: var(--big-container);
+
+      .content {
+        text-align: initial;
+        position: relative;
+        z-index: 1;
+        flex: 0 1 560px;
+
+        h1 {
+          white-space: nowrap;
+          font-size: var(--step-0);
+          //font-size: 32px;
+        }
+        p {
+          margin-inline: initial;
+        }
+
+        button {
+          width: 180px;
+          margin-top: 2rem;
+        }
+      }
+
+      picture {
+        flex: 0 2 590px;
+        margin-left: -13rem;
+      }
+    }
+  }
+}
+
+/*
+@media (min-width: 768px) {
+  .hero {
+    .showcase-container {
+      picture {
+        //flex: 0 2 900px;
+        margin-left: -13rem;
+      }
+
+      .content {
+        h1 {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    .showcase-container {
+      max-width: initial;
+
+      justify-content: center;
+
+      .content {
+        h1 {
+          font-size: 50px;
+        }
+      }
+
+      picture {
+        margin: initial;
+        margin-left: -12rem;
+        flex: 0 1 570px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    .showcase-container {
+      picture {
+        margin-left: -13rem;
+        flex: 0 1 680px;
+      }
+
+      .content {
+        h1 {
+          font-size: 58px;
+        }
+      }
+    }
+  }
+}
+
+*/

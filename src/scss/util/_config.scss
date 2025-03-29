@@ -1,0 +1,45 @@
+.primary-btn {
+  & {
+    --color: #ad7e38;
+    font-family: inherit;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.5s;
+    z-index: 1;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: var(--color);
+    color: #ffffff;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #3f65e3;
+    height: 150px;
+    width: 390px;
+    border-radius: 50%;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+
+  &:hover:before {
+    top: -40px;
+    left: -40px;
+  }
+
+  &:active:before {
+    background: var(--color);
+    transition: background 0s;
+  }
+}
