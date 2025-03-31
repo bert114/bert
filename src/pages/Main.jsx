@@ -5,6 +5,7 @@ import SkillList from "../components/SkillList";
 import ProjectListings from "../components/ProjectListings";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import TestFetch from "../components/TestFetch";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <ProjectListings />
       <Contact />
       <Footer />
+      <TestFetch />
     </>
   );
 }
